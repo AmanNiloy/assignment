@@ -93,7 +93,7 @@
     top: 380px;
 }
 
-/* section */
+/* main */
 
 .section-title {
     font-weight: 700;
@@ -104,8 +104,6 @@
     left: 860px;
     top: 2000px;
 }
-
-/* skills */
 
 .skills-container {
     display: flex;
@@ -123,5 +121,109 @@
     font-weight: 700;
     font-size: 25px;
     text-align: center;
+}
 
+.gradient {
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 370px;
+    top: 2220px;
+    margin-top: 125px;
+    border-radius: 8px;
+    background-image: url('/images/watch.png');
+    mix-blend-mode: overlay;
+}
+
+.img-txt {
+    position: absolute;
+    width: 459px;
+    height: 94px;
+    left: 460px;
+    top: 2400px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.img-btn {
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    background: whitesmoke;
+    border: 0px;
+    border-radius: 5px;
+    padding: 20px 25px;
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 88px;
+    top: 190px;
+}
+
+/* future styles */
+
+.future {
+    display: flex;
+    position: absolute;
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    top: 2776.3px;
+}
+.future { background-color: black;
+background-color: bisque;
+position: absolute;
+width: 1600px;
+height: 577px;
+left: 0px;
+top: 2646.3px;
+
+/* Dark 01 */
+
+background: #151414;}
+.future .section-title {
+    position: absolute;
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    top: 200px;
+}
+
+.future-txt {
+    position: absolute;
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    top:250px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.future-text {
+    position: absolute;
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    top:550px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.future-text2 {
+    position: absolute;
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    top:570px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
 }
